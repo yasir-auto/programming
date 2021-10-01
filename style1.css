@@ -1,6 +1,12 @@
 div {
-    background-color: pink;
+    background-color: lavender;
 }
 .app    {
     display: flex;
+}
+.description    {
+    color: black;
+} 
+.title  {
+    color: hotpink;
 }
