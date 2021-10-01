@@ -7,3 +7,10 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.image {
+    max-width: 460px;
+}
+.description {
+    max-width: 705px;
+}
