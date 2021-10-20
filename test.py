@@ -43,3 +43,11 @@ print (7)
 print (8)
 print (9)
 '''
+
+#Test ex-4
+speed_of_light = 299792458
+billionth = 1/1000000000
+nanostick = speed_of_light *billionth * 100
+cycles_per_second = nanostick / 2700000000
+print cycles_per_second
+
