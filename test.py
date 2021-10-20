@@ -124,3 +124,10 @@ print (name [2])
 print (name [3])
 print (name [4])
 '''
+
+#Test ex-11
+# Write Python code that prints out Udacity (with a capital U)
+'''
+s = 'audacity'
+print ('U' + s[2:])
+'''
