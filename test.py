@@ -61,7 +61,14 @@ print (hours)
 '''
 
 #Test ex-6 ''
-
+'''
 minutes = minutes + 1
 seconds = minutes * 60
 print (seconds)
+'''
+
+#Test ex-7 define age in days
+
+age = 26 * 365
+print (age)
+
