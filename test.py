@@ -68,7 +68,12 @@ print (seconds)
 '''
 
 #Test ex-7 define age in days
-
+'''
 age = 26 * 365
 print (age)
+'''
 
+#Test ex-8 string
+
+name = "Yasir"
+print (name)
