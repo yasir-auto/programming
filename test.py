@@ -78,3 +78,9 @@ print (age)
 name = "Yasir"
 print ('Hello ' + name + '!')
 '''
+
+#Test ex-9 string + number
+'''
+name = "Yasir"
+print ('Hello ' + name + '!' * 5)
+'''
