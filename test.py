@@ -53,10 +53,15 @@ cycles_per_second = nanostick / 2700000000
 print (cycles_per_second)
 '''
 #Test ex-5 varying variables 1
-
+'''
 hours = 9
 hours = hours + 1
 hours = hours * 2
 print (hours)
+'''
 
+#Test ex-6 ''
 
+minutes = minutes + 1
+seconds = minutes * 60
+print (seconds)
