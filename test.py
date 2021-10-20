@@ -74,6 +74,7 @@ print (age)
 '''
 
 #Test ex-8 string
-
+'''
 name = "Yasir"
-print (name)
+print ('Hello ' + name + '!')
+'''
