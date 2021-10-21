@@ -133,5 +133,11 @@ print ('U' + s[2:])
 '''
 
 #Test ex-12 Practice with string.find()
-
-print "Example 1: Finding substrings in a string"
+'''
+print ("Example 1: Finding substrings in a string")
+print ("test".find("te"))
+print ("test".find("st"))
+print ("test"[2:])
+print ("test"[1:])
+print ("test"[:])
+'''
