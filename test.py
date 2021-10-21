@@ -160,3 +160,12 @@ favorite_color = my_string[color_start_location:]
 print (favorite_color) # opps, this line prints out 'color:' as well....
 print (favorite_color[7:]) # this fixes it !
 '''
+
+#Test ex-15 Practice with string.find()
+'''
+print ("Example 4: Other interesting things about string.find()...")
+print ("text".find("text")) # prints 0
+print ("text".find("Text")) # prints -1
+print ("text".find(""))     # prints 0
+print ("text".find(" "))    # prints -1  
+'''
