@@ -141,3 +141,14 @@ print ("test"[2:])
 print ("test"[1:])
 print ("test"[:])
 '''
+
+#Test ex-13 Practice with string.find()
+'''
+print ("Example 2: Finding substrings in a string which is stored as a variable")
+my_string = "test"
+print (my_string.find("te"))
+print (my_string.find("st"))
+print (my_string[2:])
+'''
+
+
