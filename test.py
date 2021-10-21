@@ -151,4 +151,12 @@ print (my_string.find("st"))
 print (my_string[2:])
 '''
 
-
+#Test ex-14 Practice with string.find()
+'''
+print ("Example 3: Printing out everything after a certain substring")
+my_string = "My favorite color: blue"
+color_start_location = my_string.find("color:")
+favorite_color = my_string[color_start_location:]
+print (favorite_color) # opps, this line prints out 'color:' as well....
+print (favorite_color[7:]) # this fixes it !
+'''
