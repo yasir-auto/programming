@@ -131,3 +131,7 @@ print (name [4])
 s = 'audacity'
 print ('U' + s[2:])
 '''
+
+#Test ex-12
+
+print "Example 1: Finding substrings in a string"
