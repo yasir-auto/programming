@@ -169,3 +169,5 @@ print ("text".find("Text")) # prints -1
 print ("text".find(""))     # prints 0
 print ("text".find(" "))    # prints -1  
 '''
+
+#Test ex-15 Practice with string.find
