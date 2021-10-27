@@ -178,8 +178,21 @@ print ("test".find("t"))
 print ("test".find("t, 1"))
 '''
 #Test ex-16 Practice with string.find
-
+'''
 print ("Example 2: using a variable to store first location")
 first_location = ("consol".find("o")) # here we store the first location of "t"
 print (first_location)
 print ("consol".find("o", first_location+1)) # then we use that location to find the second occurrence.
+'''
+
+#Test ex-17 Practice with string.find
+'''
+print ("Example 3: using find to get rid of exclamation marks!!")
+example = "Wow! Python is great! Don't you think?"
+first = example.find('!')
+second = example.find('!', first + 1)
+new_string = example[:first] + example[first+1:second] + example[second+1:]
+print (new_string) # oops, I should probably replace the !s with periods
+new_string = example[:first] +'.'+ example[first+1:second] +'.'+ example[second+1:]
+print (new_string)
+'''
