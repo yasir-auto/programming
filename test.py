@@ -171,3 +171,9 @@ print ("text".find(" "))    # prints -1
 '''
 
 #Test ex-15 Practice with string.find
+
+'''
+print ("Ex 1: using find to print the second occurrence of a sub-string") 
+print ("test".find("t"))
+print ("test".find("t, 1"))
+'''
