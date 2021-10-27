@@ -177,3 +177,9 @@ print ("Ex 1: using find to print the second occurrence of a sub-string")
 print ("test".find("t"))
 print ("test".find("t, 1"))
 '''
+#Test ex-16 Practice with string.find
+
+print ("Example 2: using a variable to store first location")
+first_location = ("consol".find("o")) # here we store the first location of "t"
+print (first_location)
+print ("consol".find("o", first_location+1)) # then we use that location to find the second occurrence.
