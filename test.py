@@ -210,10 +210,16 @@ print(7*7*24)
 s = 'udacity'
 t = 'bodacious'
 # write Python code that prints out udacious    # without using any quote characters in.
-
+'''
 print(s[0]+t[2:])
 
 # Or this
 
 print(s[:-2]+t[-3:])
+'''
 
+# String Slicing-19
+
+sentence = "A Noun went on a walk."
+substring = sentence[6:]
+print(substring)
