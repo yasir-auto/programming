@@ -219,7 +219,22 @@ print(s[:-2]+t[-3:])
 '''
 
 # String Slicing-19
-
+'''
 sentence = "A Noun went on a walk."
 substring = sentence[6:]
 print(substring)
+'''
+
+# Use string slicing to store everything before "NOUN" in substring1,
+# everything after "NOUN" and before "VERB" in substring2, and everything after "VERB" 
+# in substring3.  ex20
+'''
+sentence = "A noun went on a walk. It can verb really fast."
+substring1 = sentence[:2]
+substring2 = sentence[6:29]
+substring3 = sentence[34:]
+print(substring1)
+print(substring2)
+print(substring3)
+print(substring1+substring2+substring3)
+'''
