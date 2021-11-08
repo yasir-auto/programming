@@ -305,5 +305,15 @@ print(noun_position)
 print(verb_position)
 '''
 
-
+#Find 2 ex24
+# Assume text is a variable that
+# holds a string. Write Python code
+# that prints out the position
+# of the second occurrence of 'zip' # in text, or -1 if it does not occur   # at least twice.
+'''
+text = "all zip files are zipped."
+#text = "zip files are compressed"
+code = text.find("zip")
+print (text.find('zip',code+1))
+'''
 
