@@ -317,3 +317,13 @@ code = text.find("zip")
 print (text.find('zip',code+1))
 '''
 
+# Replacing Strings ex25
+# Let's go over another string method: string.replace. Use this method
+# to replace the instance of NOUN with "duck" and VERB with "waddle" in the string
+'''
+sentence = "A NOUN went on a walk. They can VERB really well."
+sentence = sentence.replace("NOUN", "cat")
+sentence = sentence.replace("VERB", "very")
+print(sentence)
+'''
+
