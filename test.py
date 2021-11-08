@@ -196,3 +196,19 @@ print (new_string) # oops, I should probably replace the !s with periods
 new_string = example[:first] +'.'+ example[first+1:second] +'.'+ example[second+1:]
 print (new_string)
 '''
+
+# Python Programming 1
+
+# Write Python code that prints out the number of hours in 7 weeks.
+
+'''
+print(7*7*24)
+'''
+
+
+# Given the variables s and t defined as:
+s = 'udacity'
+t = 'bodacious'
+# write Python code that prints out udacious    # without using any quote characters in.
+
+print(s[0]+t[2:])
