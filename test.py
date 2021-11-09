@@ -327,3 +327,35 @@ sentence = sentence.replace("VERB", "very")
 print(sentence)
 '''
 
+# functions 
+
+# A Taste of What You'll Learn Part 1 ex26
+'''
+def say_hello():
+    return "Hello!"
+
+print (say_hello())
+'''
+# A Taste of What You'll Learn Part 2 ex26
+'''
+def say_hello(name):
+    greeting = "Hello " + name + "!"
+    return greeting
+
+print (say_hello("khan"))
+print (say_hello("asad"))
+'''
+# A Taste of What You'll Learn Part 3 ex26
+'''
+def add_two_number(number_1, number_2):
+    return number_1 +   number_2
+
+print (add_two_number(5, 8))
+print (add_two_number(4, 7))
+print (add_two_number(15, 8))
+
+def subtract_two_number(number_1, number_2):
+    return number_1 + number_2
+
+print (subtract_two_number(4, 3))
+'''
