@@ -359,3 +359,32 @@ def subtract_two_number(number_1, number_2):
 
 print (subtract_two_number(4, 3))
 '''
+
+# Define a procedure, square, that takes one number ex26
+'''
+def sum(a, b):
+    c = a+b
+    return c
+
+print (sum(5,6))
+
+
+def square(a):
+    return a*a
+
+print (square(9))
+
+# Sum of Three
+
+def sum3(a,b,c):
+    d = a+b+c
+    return d
+
+print (sum3(93,53,70))
+
+def abbaize(a,b):
+    return a+b+b+a
+
+print (abbaize('dog','cat'))
+'''
+
