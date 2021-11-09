@@ -388,3 +388,12 @@ def abbaize(a,b):
 print (abbaize('dog','cat'))
 '''
 
+# Work Session: Print vs Return ex27
+'''
+def udacify(a):
+    return "U"+a
+
+print (udacify("dacians"))
+print (udacify('turn'))
+print (udacify('boat'))
+'''
