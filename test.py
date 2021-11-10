@@ -426,3 +426,34 @@ else:
     print("20 is greater than 10!")
 '''
 
+# If Statements ex29
+
+# Define a procedure, bigger, that takes in
+# two numbers as inputs, and returns the
+# greater of the two inputs.
+'''
+def bigger(a,b):
+    return max(a,b)
+
+print (bigger(5,7))
+print(bigger(10,5))
+'''
+# by own
+'''
+def bigger(a,b):
+    if a>b:
+        print('a'+ " is greater")
+    else:
+        print('b' + " is greater")
+        
+print(bigger(12,10))
+'''
+'''
+def bigger(a,b):
+    if a>b:
+        return a
+    else:
+        return b
+print(bigger(5,8))
+print(bigger(8,4))
+'''
