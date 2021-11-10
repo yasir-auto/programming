@@ -457,3 +457,16 @@ def bigger(a,b):
 print(bigger(5,8))
 print(bigger(8,4))
 '''
+
+# Is Friend ex30
+'''
+def is_friend(name):
+    if name[0] == 'y':
+        return True
+    else:
+        return False
+
+print(is_friend("yasir"))
+print(is_friend("khan"))
+'''
+
