@@ -481,6 +481,7 @@ print(is_friend("khan"))
 
 #Biggest quiz
 
+'''
 def biggest(a,b,c):
     if a>b:
         if a>c:
@@ -495,6 +496,7 @@ def biggest(a,b,c):
 
 print(biggest(5,8,11))
 print(biggest(10,41,7))
+'''
 
 
 
