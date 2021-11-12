@@ -470,3 +470,10 @@ print(is_friend("yasir"))
 print(is_friend("khan"))
 '''
 
+# another way
+
+def is_friend(name):
+    return name[0] == 'y' or name[0] == 'k'
+
+print(is_friend("yasir"))
+print(is_friend("khan"))
