@@ -471,13 +471,13 @@ print(is_friend("khan"))
 '''
 
 # another way from OR
-
+'''
 def is_friend(name):
     return name[0] == 'y' or name[0] == 'k'
 
 print(is_friend("yasir"))
 print(is_friend("khan"))
-
+'''
 
 #Biggest quiz
 
@@ -493,6 +493,8 @@ def biggest(a,b,c):
         else:
             return c
 
-print(biggest(15,8,9))
+print(biggest(5,8,11))
+print(biggest(10,41,7))
+
 
 
