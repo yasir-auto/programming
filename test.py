@@ -515,9 +515,99 @@ while i != 10:
 
 # While Loop Playground
 
-
 # This code demonstrates a while loop with a "counting variable"
+
+'''
 i = 0
 while i < 10:
     print (i)
     i = i+1
+'''
+
+# This uses a while loop to remove all the spaces from a string of
+# text. Can you figure out how it works?
+'''
+def remove_spaces(text):
+    text_without_spaces = '' #empty string for now
+    while text !='':
+        next_character = text[0]
+        if next_character != ' ':   #that a single space
+            text_without_spaces =text_without_spaces +next_character
+        text = text[1:]
+    return text_without_spaces
+print (remove_spaces("hello my name is khan how are you?"))
+'''
+# Print Numbers quiz
+
+'''def print_number(a):
+    i = 0
+    while i < a:
+        i= i+1
+        print (i)
+'''
+'''
+def  print_numbers(n):
+    i = 0
+    while(i <n):
+        i+=1
+        print(i)
+    return
+
+print(print_numbers(3))
+'''
+
+# Deep Debugging ex32
+
+# A small change will fix the crashing bug in printInches.
+'''
+def printExample(a, b):
+    print (a + b)
+    
+def printInches(n):
+    print (str (n) + " inches")
+
+# Don't change the function calls on lines 10 - 12.
+printExample(17, 23)
+printExample('long', 'word')
+printInches(42)
+'''
+
+# Strategy: Work from a Working Example
+
+'''
+def bracket(text):
+    return '[' + text + ']'
+
+def boldwrap(text):
+    return '<b>' + text + '</b>'
+
+print (boldwrap('This is an important message.'))
+'''
+
+
+
+# Try adding print statements to look at the values of variables inside
+# the remove function.  See if you can find out what's making it give
+# silly answers such as remove('ding', 'do') -> 'dining'.
+
+'''
+def remove(somestring, sub):
+    """Return somestring with sub removed."""
+    location = somestring.find(sub)
+    if location ==-1:
+        return somestring 
+    length = len(sub)
+    part_before = somestring[:location]
+    part_after = somestring[location + length:]
+    return part_before + part_after
+
+# 
+# Don't change these test cases!
+print (remove('audacity', 'a'))
+print (remove('pythonic', 'ic'))
+print (remove('substring institution', 'string in'))
+print (remove('ding', 'do'))  # "do" isn't in "ding"; should print "ding"
+print(remove('doomy', 'dooming'))  # and this should print "doomy"
+'''
+
+
