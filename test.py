@@ -498,20 +498,26 @@ print(biggest(5,8,11))
 print(biggest(10,41,7))
 '''
 
-#While Loops ex31
+# While Loops ex31
 '''
 i=0
 while i != 10:
     i = i+1
     print (i)
 '''
-
+# While Loops 2
+'''
 i=0
 while i != 10:
     i = i+2 
     print (i)
+'''
+
+# While Loop Playground
 
 
-
-
-
+# This code demonstrates a while loop with a "counting variable"
+i = 0
+while i < 10:
+    print (i)
+    i = i+1
