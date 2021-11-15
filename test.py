@@ -498,5 +498,20 @@ print(biggest(5,8,11))
 print(biggest(10,41,7))
 '''
 
+#While Loops ex31
+'''
+i=0
+while i != 10:
+    i = i+1
+    print (i)
+'''
+
+i=0
+while i != 10:
+    i = i+2 
+    print (i)
+
+
+
 
 
