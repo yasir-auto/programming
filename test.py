@@ -637,7 +637,7 @@ print('Blastoff')
 '''
 
 # another way
-
+'''
 def countdown(n):
     while n>0:
         print(n)
@@ -645,3 +645,23 @@ def countdown(n):
 
 print(countdown(3))
 print('Blastoff')
+'''
+
+# Median
+
+def bigger(a,b):
+    if a > b:
+        return a
+    else:
+        return b
+
+
+def median(a,b,c):
+    if bigger(a, b)<=c:
+        return bigger(a , b)
+    if bigger(a, c)<=b:
+        return bigger(a, c)
+    if bigger(c, b)<=a:
+        return bigger (c ,b)
+
+print(median(9,3,6))
