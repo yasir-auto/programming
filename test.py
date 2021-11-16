@@ -648,7 +648,7 @@ print('Blastoff')
 '''
 
 # Median
-
+'''
 def bigger(a,b):
     if a > b:
         return a
@@ -665,3 +665,102 @@ def median(a,b,c):
         return bigger (c ,b)
 
 print(median(9,3,6))
+'''
+
+# Random Nouns
+
+from operator import index
+from random import randint
+from typing import TextIO
+'''
+def random_noun():
+    random_num = randint(0,1)
+    if random_num == 0:
+        return "sofa"
+    else:
+        return "llama"
+print(random_noun())
+'''
+'''
+def random_verb():
+    a = randint(0,1)
+    if a == 0:
+        return "run"
+    else:
+        return "kayak"
+
+print(random_verb())
+'''
+
+# Word Transformer
+'''
+def random_noun():
+    random_num = randint(0,1)
+    if random_num == 0:
+        return "sofa"
+    else:
+        return "llama"
+
+def random_verb():
+    a = randint(0,1)
+    if a == 0:
+        return "run"
+    else:
+        return "kayak"
+
+def word_transformer(word):
+    if word == "noun":
+        return random_noun()
+    if word == "verb":
+        return random_verb()
+    else:
+        return word[0]
+
+
+print(word_transformer('verb'))
+'''
+
+                            #Process Mad Lib
+
+
+def random_noun():
+    random_num = randint(0,1)
+    if random_num == 0:
+        return "sofa"
+    else:
+        return "llama"
+
+def random_verb():
+    a = randint(0,1)
+    if a == 0:
+        return "run"
+    else:
+        return "kayak"
+
+def word_transformer(word):
+    if word == "noun":
+        return random_noun()
+    if word == "verb":
+        return random_verb()
+    else:
+        return word[0]
+
+def process_madlib(madlib):
+    processed = " "
+    index= 0
+    box_length= 4
+    while index < len(madlib):
+        frame = madlib[index : index + box_length]
+        to_add = word_transformer(frame)
+        processed += to_add
+        if len(to_add) == 1:
+            index += 1
+        else:
+            index += 4
+    return processed
+
+test_string_1 = "This is a good noun to use when you verb your food"
+test_string_2 = "I'm going to verb to the store and pick up a noun or two."
+
+print (process_madlib(test_string_1))
+print (process_madlib(test_string_2))
