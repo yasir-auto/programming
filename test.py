@@ -722,7 +722,7 @@ print(word_transformer('verb'))
 
                             #Process Mad Lib
 
-
+'''
 def random_noun():
     random_num = randint(0,1)
     if random_num == 0:
@@ -764,3 +764,5 @@ test_string_2 = "I'm going to verb to the store and pick up a noun or two."
 
 print (process_madlib(test_string_1))
 print (process_madlib(test_string_2))
+'''
+
