@@ -615,6 +615,7 @@ print(remove('doomy', 'dooming'))  # and this should print "doomy"
 # Define a procedure weekend which takes a string as its input, and
 # returns the boolean True if it's 'Saturday' or 'Sunday' and False otherwise.
 
+'''
 def weekend(day):
     if day == 'Saturday' or day == 'Sunday':
         return True
@@ -622,4 +623,25 @@ def weekend(day):
         return False
 
 print(weekend('Saturday'))
+'''
 
+# Blastoff
+'''
+def countdown(n):
+    i = n
+    while (i>0):
+        print(i)
+        i-=1
+print(countdown(5))
+print('Blastoff')
+'''
+
+# another way
+
+def countdown(n):
+    while n>0:
+        print(n)
+        n=n-1
+
+print(countdown(3))
+print('Blastoff')
