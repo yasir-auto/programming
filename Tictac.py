@@ -101,7 +101,7 @@ class TicTacToe:
             # fixing the spot
             self.fix_spot(row - 1, col - 1, player)
 
-            # checking whether current player is won or not
+            # checking whether current player is won or not 
             if self.is_player_win(player):
                 print(f"Player {player} wins the game!")
                 break
