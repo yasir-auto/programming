@@ -122,3 +122,20 @@ class TicTacToe:
 # starting the game
 tic_tac_toe = TicTacToe()
 tic_tac_toe.start()
+
+
+
+
+
+#   print find _element ([1,2,3,4,5,6,7,8,9,10]):
+#   print   fine_element (['alpha','beta'])
+#   p=[0,1,2]
+#   print p.index(2)
+#   return -1
+
+
+#   def find_element(xlist,y):
+#       if y in xlist:
+#           return xlist.index(y)
+#       else:
+#           return -1   
