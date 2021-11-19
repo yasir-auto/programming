@@ -766,3 +766,8 @@ print (process_madlib(test_string_1))
 print (process_madlib(test_string_2))
 '''
 
+# Experiment with Lists ex34
+
+print ("EXAMPLE 1: Lists can contain strings")
+string_list = ['HTML', 'CSS', 'Python']
+print (string_list)
