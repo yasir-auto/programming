@@ -768,6 +768,40 @@ print (process_madlib(test_string_2))
 
 # Experiment with Lists ex34
 
+'''
 print ("EXAMPLE 1: Lists can contain strings")
 string_list = ['HTML', 'CSS', 'Python']
 print (string_list)
+'''
+'''
+print ("EXAMPLE 2: Lists can contain numbers")
+number_list = [3.14159, 2.71828, 1.61803]
+print (number_list)
+'''
+#########################################################################
+'''
+spy = [0,0,7]
+agent = spy
+spy[2] = agent[2] + 1
+print(agent[2])
+'''
+'''
+spy = [0,0,7]
+def replace_spy(spy):
+    spy[2]+=2
+    return spy
+
+print(replace_spy(spy))
+'''
+'''
+p = [1,2]
+p.append(3)
+p = p + [4,5]
+print (len(p))
+'''
+'''
+p =[1,2]
+q = [3,4]
+p.append(q)
+print (len(p))
+'''
