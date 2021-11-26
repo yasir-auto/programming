@@ -832,6 +832,6 @@ def find_element(xlist, y ):
         
         return -1
 
-print (find_element([1,2,3],3))
+#print (find_element([1,2,3],3))
 
 print (find_element(['alpha','beta'],'gamma'))        
