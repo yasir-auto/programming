@@ -819,3 +819,19 @@ def measure_udacity(list):
 print (measure_udacity(['Umika','Umberto']))
 '''
 
+def find_element(xlist, y ):
+     
+    i = 0 
+    for item in xlist:
+        
+        if item == y:
+            return i
+        i+=1
+        
+    else:
+        
+        return -1
+
+print (find_element([1,2,3],3))
+
+print (find_element(['alpha','beta'],'gamma'))        
