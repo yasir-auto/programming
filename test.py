@@ -805,7 +805,7 @@ q = [3,4]
 p.append(q)
 print (len(p))
 '''
-
+'''
 def measure_udacity(list):
     count = 0
     for name in list:
@@ -817,3 +817,5 @@ def measure_udacity(list):
 #print (measure_udacity(['Dave','Sebastian','Katy']))
 
 print (measure_udacity(['Umika','Umberto']))
+'''
+
