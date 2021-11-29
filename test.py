@@ -820,6 +820,7 @@ print (measure_udacity(['Umika','Umberto']))
 '''
 
 def find_element(xlist, y ):
+    w = ('worng number')
      
     i = 0 
     for item in xlist:
@@ -830,8 +831,8 @@ def find_element(xlist, y ):
         
     else:
         
-        return -1
+        return w
 
-#print (find_element([1,2,3],3))
+#print (find_element([1,2,3],4))
 
-print (find_element(['alpha','beta'],'gamma'))        
+print (find_element(['alpha','beta'],'beta'))        
