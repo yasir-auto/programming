@@ -818,7 +818,7 @@ def measure_udacity(list):
 
 print (measure_udacity(['Umika','Umberto']))
 '''
-
+'''
 def find_element(xlist, y ):
     w = ('worng number')
      
@@ -833,6 +833,12 @@ def find_element(xlist, y ):
         
         return w
 
-#print (find_element([1,2,3],4))
+print (find_element([1,2,3],4))
 
-#print (find_element(['alpha','beta'],'beta'))        
+print (find_element(['alpha','beta'],'beta'))
+
+'''     
+
+##########################################################################
+
+print ('yasir yasir hussain hussain') 
