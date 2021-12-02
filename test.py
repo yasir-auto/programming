@@ -841,4 +841,9 @@ print (find_element(['alpha','beta'],'beta'))
 
 ##########################################################################
 
-print ('yasir yasir hussain hussain') 
+#print ('yasir yasir hussain hussain') 
+
+x = 6
+y = 9
+z = x+y
+print(z)
