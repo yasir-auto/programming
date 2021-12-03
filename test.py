@@ -843,7 +843,19 @@ print (find_element(['alpha','beta'],'beta'))
 
 #print ('yasir yasir hussain hussain') 
 
+'''
 x = 6
 y = 9
 z = x+y
 print(z)
+'''
+def find_element(xlist, y):
+    if y in xlist:
+        return xlist.index(y)
+    else:
+
+        return -1
+
+#print (find_element([1,2,3],2))
+
+print (find_element(['alpha','beta'], 'beta'))
