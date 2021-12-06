@@ -849,6 +849,7 @@ y = 9
 z = x+y
 print(z)
 '''
+'''
 def find_element(xlist, y):
     if y in xlist:
         return xlist.index(y)
@@ -859,3 +860,16 @@ def find_element(xlist, y):
 #print (find_element([1,2,3],2))
 
 print (find_element(['alpha','beta'], 'beta'))
+'''
+
+
+# Every entry in the following list is itself a list
+nested_list = [['HTML', 'Hypertext Markup Language forms the structure of webpages'],
+               ['CSS' , 'Cascading Style Sheets give pages style'],
+               ['Python', 'Python is a programming language'],
+               ['Lists', 'Lists are a data structure that let you organize information']]
+
+first_concept = nested_list[0]
+
+print ("What do you think this will print?")
+print (first_concept)
