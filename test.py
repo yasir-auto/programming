@@ -820,7 +820,7 @@ print(how_many_days(4))
                     #Play with Lists
 
 # Every entry in the following list is itself a list
-
+'''
 nested_list = [['HTML', 'Hypertext Markup Language forms the structure of webpages'],
                ['CSS' , 'Cascading Style Sheets give pages style'],
                ['Python', 'Python is a programming language'],
@@ -836,3 +836,22 @@ first_description = first_concept[1]
 print ("What will this print?")
 print (first_title)
 print (first_description)
+'''
+
+                    #Countries
+
+# Given the variable countries defined as:
+
+#             Name    Capital  Populations (millions)
+
+countries = [['China','Beijing',1350],
+             ['India','Delhi',1210],
+             ['Romania','Bucharest',21],
+             ['United States','Washington',307]]
+
+#print(countries[1][1])
+#a = countries[0][2]//countries[2][2]
+
+                        #OR
+                        
+print(countries[0][2]/countries[2][2])
