@@ -858,10 +858,19 @@ print(countries[0][2]/countries[2][2])
 '''
 
                             #Mutation
-
+'''
 stooges = ["Moe","Larry","Curly"]
 print(stooges)
 stooges[2] = "Shemp"
 print(stooges)
+'''
 
+                            #Aliasing
+##Secret Agent Man
+'''
+spy =[0,0,7]
+agent = spy
+spy[2] = agent[2]+1
+print(agent)
+'''
 
