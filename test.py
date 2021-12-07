@@ -808,3 +808,13 @@ print ("Example 5: Lists can even contain other lists")
 list_with_lists = [3, 'colors:', ['red', 'green', 'blue'], 'your favorite?']
 print (list_with_lists)
 '''
+
+                    #Days in a Month
+
+def how_many_days(month_number):
+    days_in_month = [31,28,31,30,31,30,31,31,30,31,30,31]
+    return days_in_month[month_number-1]
+
+print(how_many_days(4))
+
+
