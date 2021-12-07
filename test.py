@@ -780,3 +780,31 @@ print (number_list)
 '''
 
 #Structured Data: Lists & For Loops
+
+
+                #Experiment with Lists
+
+'''
+#print("Ex-1 List can contain strings")
+string_list=['html','css','python']
+#print(string_list)
+
+
+#print("Ex-2 List can contain numbers")
+number_list=['3.14','5.15','1.669']
+#print(number_list)
+
+print("EXAMPLE 3: Lists can be 'accessed' and 'sliced' like how we accessed and sliced strings in the previous lessons")
+pi = number_list[0]
+not_pi = number_list[1:]
+print(pi)
+print(not_pi)
+
+#print ("EXAMPLE 4: Lists can contain strings AND numbers")
+mixed_list= ['hello!',42,"google!"]
+#print(mixed_list)
+
+print ("Example 5: Lists can even contain other lists")
+list_with_lists = [3, 'colors:', ['red', 'green', 'blue'], 'your favorite?']
+print (list_with_lists)
+'''
