@@ -875,10 +875,12 @@ print(agent)
 '''
 
                             #Replace Spy
+'''                            
 spy = [0,0,7]
 def replace_spy(spy):
     spy[2]+=1
     return spy
 
 print (replace_spy(spy))
+'''
 
