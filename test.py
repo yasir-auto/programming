@@ -843,7 +843,7 @@ print (first_description)
 # Given the variable countries defined as:
 
 #             Name    Capital  Populations (millions)
-
+'''
 countries = [['China','Beijing',1350],
              ['India','Delhi',1210],
              ['Romania','Bucharest',21],
@@ -853,5 +853,15 @@ countries = [['China','Beijing',1350],
 #a = countries[0][2]//countries[2][2]
 
                         #OR
-                        
+
 print(countries[0][2]/countries[2][2])
+'''
+
+                            #Mutation
+
+stooges = ["Moe","Larry","Curly"]
+print(stooges)
+stooges[2] = "Shemp"
+print(stooges)
+
+
