@@ -884,3 +884,35 @@ def replace_spy(spy):
 print (replace_spy(spy))
 '''
 
+                            #List Addition and Length
+
+p = [1,2]
+p.append(3)
+#p = p + [4,5]
+#print(p)
+
+'''
+p=[1,2]
+q=[3,4]
+p.append(q)
+print (len(p))
+'''
+                            #Loops on Lists
+''''
+def print_all_elements(p):
+    i = 0
+    while i<=p:
+        print (p[i])
+        i = i + 1
+
+print (print_all_elements(p))
+'''
+
+                            #For Loops
+'''
+mylist = [1,2,[3,4]]
+def print_all_elements(p):
+    for e in p:
+        print (e)
+print (print_all_elements(mylist))
+'''
