@@ -916,3 +916,65 @@ def print_all_elements(p):
         print (e)
 print (print_all_elements(mylist))
 '''
+
+                            #For Loop Playground
+
+# Read through these examples and try to figure out what's going on.
+# Press "Test Run" to see what they do.
+
+'''
+print ("EXAMPLE 1: We can use for loops to go through a list of strings")
+example_list_1 = ['a', 'b', 'c', 'd']
+for thing in example_list_1:
+    print (thing)
+'''
+
+'''
+print ("EXAMPLE 2: We can use for loops on nested lists too!")
+example_list_2 = [['China', 'Beijing'],
+                  ['USA'  , 'Washington D.C.'],
+                  ['India', 'Delhi']]
+for country_with_capital in example_list_2:
+    country = country_with_capital[0]
+    capital = country_with_capital[1]
+    print (capital + ' is the capital of ' + country)
+'''
+
+                            #Sum List
+
+def sum_list(list):
+    return sum(list)
+
+#print (sum_list([1,7,4]))
+#print (sum_list([9, 4, 10]))
+
+
+                            #Measure Udacity
+#list = ['Dave','Sabastian','Katy']
+#list = ['Umika','Umberto']
+def measure_udacity(list):
+    count = 0
+    for e in list:
+        if e[0] == "U":
+            count+=1
+    return count
+
+#print(measure_udacity(list))
+
+
+                            #Find Element
+
+
+list = ([1,2,3,5,8,9,6,])
+y = (5)
+def find_element(list, y):
+    count = 0
+    for e in list:
+        if e == y:
+            return count
+        count+=1
+
+    else:
+        return -1
+
+print(find_element(list, y))
