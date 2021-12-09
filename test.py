@@ -966,7 +966,7 @@ def measure_udacity(list):
 
 
 list = ([1,2,3,5,8,9,6,])
-y = (5)
+y = (6)
 def find_element(list, y):
     count = 0
     for e in list:
